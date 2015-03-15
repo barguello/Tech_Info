@@ -1,0 +1,52 @@
+Linux Stuff
+- system tools in /usr/bin
+- tools installed through macport in /opt/local/bin
+- apt: Debian packaging tools
+- ranger: file manager for Unix
+- tmux: session manager and window/pane splitter
+- apt-cache search --names-only name   to search for a package
+- apt-get install name   to install a package
+- which to find where a binary is stored
+
+Vagrant STuff
+- box file has operating system
+- Vagrantfile has configurations for box
+
+VIM stuff
+- F5 has brings up file system
+- F7 brings up lint
+- .vimrc has configurations
+- current color scheme is Solarized(Dark)
+- I want Monkai
+
+Python stuff
+- Python testing is "Nose"
+- os.path.abspath(file.__file__) to get absolute path of a module
+- os.path.join joins paths inteligently
+- string.split('/') splits the path by '/'
+- files.find_extension(path, 'json') finds all files from path with an extension of .json
+
+
+Tmux stuff
+- To change tmux color scheme, just download one and change it in preference/profiles/colors
+
+Ranger configuration
+- Get configuration files from ArchWiki and make $EDITOR env variable vim.  Then mirror a modification in 
+
+bsve server stuff
+- issue command "bsve" to ssh into Mac machine.  
+- go to /Volumes/bsve_datastore to get into large drive- vagrant to go into VM
+- to get in, add the function which I have in my .profile to .profile
+- copy the public and private keys to .ssh
+
+Andy's file utility
+
+git stuff
+- git status displays status of repository
+- git fetch fetches repository
+- git rm removes item from repository
+- git commit -m "message" commits changes with the message
+- git config --global user.name "username"
+- git config --blobal user.emaili "email"  sets configuration so they don't need to be retyped
+- git push pushes changes to github
+- -git pull pulls in changes
